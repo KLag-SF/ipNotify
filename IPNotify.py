@@ -56,7 +56,7 @@ def main_routine():
                 notify(current_IP)
 
         finally:
-            time.sleep(0)
+            time.sleep(60)
 
 # Run this program as linux daemon
 def daemonize():
