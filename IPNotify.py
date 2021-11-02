@@ -30,8 +30,6 @@ def notify(addr):
     
     payload = {'content': msg}
     payload = json.dumps(payload)
-    print(payload)
-    print(header)
 
     url = f'https://discordapp.com/api/channels/{CH}/messages'
 
